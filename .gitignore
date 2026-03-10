@@ -1,0 +1,4 @@
+/db
+.venv
+.idea
+/plots/article_network.html
