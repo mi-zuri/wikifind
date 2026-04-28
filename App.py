@@ -4,6 +4,7 @@ import threading
 from Engine import Engine
 from PIL import Image, ImageTk
 
+
 # Issue: history storing logic should be kept in Engine
 class App:
     def __init__(self, root):
@@ -362,7 +363,7 @@ class App:
 
         ttk.Label(select_frame, text="Search:").pack(anchor='w')
         self.article_search_var = tk.StringVar()
-        self.article_search_var.trace('w', self.filter_articles)
+        self.article_search_var.trace_add('write', self.filter_articles)
         search_entry = ttk.Entry(select_frame, textvariable=self.article_search_var)
         search_entry.pack(fill='x', pady=(2, 5))
 

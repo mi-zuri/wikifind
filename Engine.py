@@ -22,6 +22,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
 from sklearn.metrics.pairwise import cosine_similarity
 
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 import networkx as nx

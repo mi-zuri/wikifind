@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+pandas
+numpy
+nltk
+scikit-learn
+matplotlib
+networkx
+plotly
+pillow
+pyarrow
+fastparquet

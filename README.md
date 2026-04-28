@@ -2,6 +2,14 @@
 
 End-to-end information-retrieval pipeline for Wikipedia — crawl, vectorize, recommend, visualize — wrapped in a Tkinter GUI. Information Retrieval course project.
 
+---
+
+![dashboard preview](docs/images/preview.png)
+
+> **[Example Log](docs/example_log.txt)**
+
+---
+
 ## What it does
 
 1. **Crawl** — starting from a seed Wikipedia article, BFS outward via internal links. Multi-threaded (6 workers), deduplicated, configurable link-per-page and total-article limits.
@@ -17,12 +25,13 @@ python App.py
 ```
 
 The GUI opens with two tabs:
+
 - **Load & Process** — scrape a fresh corpus or load a cached one; pick seed article, links/page, crawl limit.
 - **Recommendations** — vectorize, browse, and get recommendations based on history; view t-SNE and network graphs.
 
 ## Cached corpora
 
-Pre-scraped datasets ship with the repo for: *Cyberpunk 2077*, *The Witcher*, *Formula One*, *Gojira*, *Poland*, *Ukraine*.
+Pre-scraped datasets ship with the repo for: _Cyberpunk 2077_, _The Witcher_, _Formula One_, _Gojira_, _Poland_, _Ukraine_.
 
 ## Dependencies
 

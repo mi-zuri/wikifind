@@ -1,0 +1,143 @@
+2026-04-28 19:12:05,886 [INFO] ============================================================
+2026-04-28 19:12:05,886 [INFO] 📂 Loading preprocessed data from cyberpunk_2077...
+2026-04-28 19:12:06,411 [INFO] ✅ Loaded 5000 articles from db/wiki_db_cyberpunk_2077.parquet
+2026-04-28 19:12:06,413 [INFO] 
+2026-04-28 19:12:06,413 [INFO] ==================================================
+2026-04-28 19:12:06,413 [INFO] RANDOM ARTICLE (https://en.wikipedia.org/wiki/Electronic_hardware)
+2026-04-28 19:12:06,413 [INFO] [Electronic engineering, Electronics stubs]
+2026-04-28 19:12:06,413 [INFO] ==================================================
+2026-04-28 19:12:06,413 [INFO] ORIGINAL FIRST SENTENCE:
+2026-04-28 19:12:06,413 [INFO] Electronic hardware consists of interconnected electronic components which perform analog or logic operations on received and locally stored informati...
+2026-04-28 19:12:06,413 [INFO] --------------------------------------------------
+2026-04-28 19:12:06,413 [INFO] PROCESSED VERSION (Root words only):
+2026-04-28 19:12:06,413 [INFO] electronic hardware consists interconnected electronic component perform analog logic operation received locally stored information produce output sto...
+2026-04-28 19:12:06,413 [INFO] ==================================================
+2026-04-28 19:12:06,413 [INFO] 
+2026-04-28 19:12:09,318 [INFO] ✅ Zipf's Law plot saved to plots/zipf_law.png
+2026-04-28 19:12:10,371 [INFO] ✅ Heaps' Law plot saved to plots/heaps_law.png
+2026-04-28 19:12:10,371 [INFO] 
+2026-04-28 19:12:10,371 [INFO] ============================================================
+2026-04-28 19:12:10,371 [INFO] 🕸️ Creating Article Network Visualization...
+2026-04-28 19:12:11,095 [INFO] Network: 5000 nodes, 94961 edges
+2026-04-28 19:12:11,095 [INFO] Computing network layout...
+2026-04-28 19:12:48,949 [INFO] ✅ Interactive network saved to plots/article_network.html
+2026-04-28 19:13:13,359 [INFO] 
+2026-04-28 19:13:13,360 [INFO] ============================================================
+2026-04-28 19:13:13,360 [INFO] ✨ Starting Vectorization...
+2026-04-28 19:13:38,289 [INFO] TF-IDF Matrix created: 5000 docs, 20000 features
+2026-04-28 19:13:38,289 [INFO] 
+2026-04-28 19:13:38,289 [INFO] 📊 Plotting Top 25 TF-IDF Terms...
+2026-04-28 19:13:38,589 [INFO] ✅ Top terms plot saved to plots/top_tfidf_terms.png
+2026-04-28 19:13:38,589 [INFO] 🔥 Top 5 terms: game, world, united, company, often
+2026-04-28 19:13:38,589 [INFO] 
+2026-04-28 19:13:38,590 [INFO] 📝 Top 10 TF-IDF Terms for Article: Cyberpunk 2077
+2026-04-28 19:13:38,591 [INFO]     1. projekt              (score: 0.1203)
+2026-04-28 19:13:38,591 [INFO]     2. projekt red          (score: 0.1143)
+2026-04-28 19:13:38,591 [INFO]     3. cyberpunk            (score: 0.1134)
+2026-04-28 19:13:38,591 [INFO]     4. pondsmith            (score: 0.0891)
+2026-04-28 19:13:38,591 [INFO]     5. johnny               (score: 0.0843)
+2026-04-28 19:13:38,591 [INFO]     6. witcher              (score: 0.0823)
+2026-04-28 19:13:38,591 [INFO]     7. kitsch               (score: 0.0807)
+2026-04-28 19:13:38,591 [INFO]     8. game best            (score: 0.0704)
+2026-04-28 19:13:38,591 [INFO]     9. refund               (score: 0.0680)
+2026-04-28 19:13:38,591 [INFO]    10. phantom              (score: 0.0662)
+2026-04-28 19:13:54,266 [INFO] 
+2026-04-28 19:13:54,266 [INFO] ============================================================
+2026-04-28 19:13:54,266 [INFO] 📊 Plotting LSA Variance Analysis...
+2026-04-28 19:13:54,447 [INFO] ✅ LSA variance plot saved to plots/lsa_variance.png
+2026-04-28 19:13:54,447 [INFO] 📈 473 components needed for 40% variance
+2026-04-28 19:13:54,447 [INFO]    (Actual variance: 40.03%)
+2026-04-28 19:13:54,447 [INFO] 
+2026-04-28 19:13:54,447 [INFO] LSA completed. Explained Variance: 40.88%
+2026-04-28 19:13:54,447 [INFO] Final Matrix Shape: (5000, 500)
+2026-04-28 19:13:54,447 [INFO] 
+2026-04-28 19:13:54,447 [INFO] ============================================================
+2026-04-28 19:13:54,447 [INFO] 🔍 General LSA Concepts (Top 5 concepts)...
+2026-04-28 19:13:54,447 [INFO] 
+2026-04-28 19:13:54,450 [INFO] Concept #1 (explains 1.90% variance):
+2026-04-28 19:13:54,450 [INFO]    Positive: game, video, software, computer, player, released, video game, user, version, release
+2026-04-28 19:13:54,450 [INFO]    Negative: government, political, population, city, century, republic, military, territory, national, east
+2026-04-28 19:13:54,450 [INFO] 
+2026-04-28 19:13:54,452 [INFO] Concept #2 (explains 1.35% variance):
+2026-04-28 19:13:54,452 [INFO]    Positive: game, video game, player, released, studio, video, series, award, announced, film
+2026-04-28 19:13:54,452 [INFO]    Negative: example, application, function, process, method, displaystyle, data, type, study, typically
+2026-04-28 19:13:54,452 [INFO] 
+2026-04-28 19:13:54,455 [INFO] Concept #3 (explains 1.04% variance):
+2026-04-28 19:13:54,455 [INFO]    Positive: game, world, people, united, government, company, war, often, work, number
+2026-04-28 19:13:54,455 [INFO]    Negative: phonons, natural logarithm, drc, belo horizonte, porto alegre, bulgakov, angina, cerebellar, ragusa, organometallic
+2026-04-28 19:13:54,455 [INFO] 
+2026-04-28 19:13:54,457 [INFO] Concept #4 (explains 0.99% variance):
+2026-04-28 19:13:54,457 [INFO]    Positive: character, story, book, theory, novel, philosophy, fiction, thought, idea, human
+2026-04-28 19:13:54,457 [INFO]    Negative: software, operating, service, operating system, user, company, largest, district, hardware, market
+2026-04-28 19:13:54,457 [INFO] 
+2026-04-28 19:13:54,460 [INFO] Concept #5 (explains 0.81% variance):
+2026-04-28 19:13:54,460 [INFO]    Positive: temperature, water, city, park, area, river, metropolitan, valley, located, mile
+2026-04-28 19:13:54,460 [INFO]    Negative: party, law, security, software, government, political, user, minister, policy, support
+2026-04-28 19:13:54,460 [INFO] 
+2026-04-28 19:13:54,460 [INFO] 
+2026-04-28 19:13:54,460 [INFO] ============================================================
+2026-04-28 19:13:54,461 [INFO] 🧠 Top LSA Concepts for Article: Cyberpunk 2077...
+2026-04-28 19:13:54,461 [INFO] 
+2026-04-28 19:13:54,461 [INFO] --- Top 5 POSITIVE Concepts for this Article ---
+2026-04-28 19:13:54,464 [INFO] Concept #1 (Article weight: +0.4165):
+2026-04-28 19:13:54,464 [INFO]    Positive: game, world, people, united, government, company, war, often, work, number
+2026-04-28 19:13:54,464 [INFO]    Negative: phonons, natural logarithm, drc, belo horizonte, porto alegre, bulgakov, angina, cerebellar, ragusa, organometallic
+2026-04-28 19:13:54,464 [INFO] 
+2026-04-28 19:13:54,466 [INFO] Concept #2 (Article weight: +0.2271):
+2026-04-28 19:13:54,466 [INFO]    Positive: game, video, software, computer, player, released, video game, user, version, release
+2026-04-28 19:13:54,466 [INFO]    Negative: government, political, population, city, century, republic, military, territory, national, east
+2026-04-28 19:13:54,466 [INFO] 
+2026-04-28 19:13:54,469 [INFO] Concept #3 (Article weight: +0.1804):
+2026-04-28 19:13:54,469 [INFO]    Positive: game, video game, player, released, studio, video, series, award, announced, film
+2026-04-28 19:13:54,469 [INFO]    Negative: example, application, function, process, method, displaystyle, data, type, study, typically
+2026-04-28 19:13:54,469 [INFO] 
+2026-04-28 19:13:54,471 [INFO] Concept #4 (Article weight: +0.0939):
+2026-04-28 19:13:54,471 [INFO]    Positive: witcher, geralt, sapkowski, award, projekt, game, card, projekt red, andrzej, linux
+2026-04-28 19:13:54,471 [INFO]    Negative: bit, bioware, processor, microsoft, integer, word, intellectual property, studio, fiction, war
+2026-04-28 19:13:54,471 [INFO] 
+2026-04-28 19:13:54,474 [INFO] Concept #5 (Article weight: +0.0902):
+2026-04-28 19:13:54,474 [INFO]    Positive: polish, poland, chip, data, amd, cpu, nvidia, processor, processing, technology
+2026-04-28 19:13:54,474 [INFO]    Negative: japanese, japan, window, file, tokyo, british, operating system, railway, format, window window
+2026-04-28 19:13:54,474 [INFO] 
+2026-04-28 19:13:54,474 [INFO] --- Top 5 NEGATIVE Concepts for this Article ---
+2026-04-28 19:13:54,477 [INFO] Concept #1 (Article weight: -0.0815):
+2026-04-28 19:13:54,477 [INFO]    Positive: language, operating system, software, word, file, university, book, school, user, text
+2026-04-28 19:13:54,477 [INFO]    Negative: weapon, chemical, force, gas, combat, military, army, attack, enemy, air
+2026-04-28 19:13:54,477 [INFO] 
+2026-04-28 19:13:54,479 [INFO] Concept #2 (Article weight: -0.0653):
+2026-04-28 19:13:54,479 [INFO]    Positive: ship, magazine, definition, server, science fiction, bay, xbox, multiplayer, fiction, playstation
+2026-04-28 19:13:54,479 [INFO]    Negative: publisher, adventure game, line, theft, dimensional, adventure, warsaw, city, atari, grand theft
+2026-04-28 19:13:54,479 [INFO] 
+2026-04-28 19:13:54,482 [INFO] Concept #3 (Article weight: -0.0597):
+2026-04-28 19:13:54,482 [INFO]    Positive: mac, apple, macos, io, prostitution, wii, algorithm, nintendo, franchise, prostitute
+2026-04-28 19:13:54,482 [INFO]    Negative: atari, anime, microsoft, arcade, cyberpunk, programming language, internet explorer, manga, bit, north
+2026-04-28 19:13:54,482 [INFO] 
+2026-04-28 19:13:54,484 [INFO] Concept #4 (Article weight: -0.0592):
+2026-04-28 19:13:54,484 [INFO]    Positive: polish, atari, video, game, metropolitan, area, poland, video game, urban, minister
+2026-04-28 19:13:54,484 [INFO]    Negative: german, germany, nazi, compiler, prussia, frankfurt, index, circuit, surgery, implant
+2026-04-28 19:13:54,484 [INFO] 
+2026-04-28 19:13:54,487 [INFO] Concept #5 (Article weight: -0.0586):
+2026-04-28 19:13:54,487 [INFO]    Positive: capcom, polish, street, island, sony, terrorism, energy, album, studio, camera
+2026-04-28 19:13:54,487 [INFO]    Negative: india, web, browser, audio, term, indian, atari, union, xbox, signal
+2026-04-28 19:13:54,487 [INFO] 
+2026-04-28 19:13:54,487 [INFO] 
+2026-04-28 19:13:54,487 [INFO] ============================================================
+2026-04-28 19:13:54,487 [INFO] 📊 Evaluating Model by Category Similarity...
+2026-04-28 19:13:57,565 [INFO] Sampling 200 articles (comparing against all others)...
+2026-04-28 19:14:31,903 [INFO] 
+2026-04-28 19:14:31,903 [INFO] 🔍 Evaluating TF-IDF Matrix...
+2026-04-28 19:14:31,932 [INFO]    Avg Similarity (Shared Category):    0.1749
+2026-04-28 19:14:31,932 [INFO]    Avg Similarity (Different Category): 0.0737
+2026-04-28 19:14:31,932 [INFO]    Discrimination Ratio:                2.37x
+2026-04-28 19:14:31,932 [INFO]    Sample pairs analyzed: 6,142 same-category, 993,658 different-category
+2026-04-28 19:14:32,984 [INFO] ✅ Category similarity distribution plot saved to plots/category_similarity_tf_idf.png
+2026-04-28 19:14:32,984 [INFO] 
+2026-04-28 19:14:32,984 [INFO] 🔍 Evaluating LSA-Reduced Matrix...
+2026-04-28 19:14:33,010 [INFO]    Avg Similarity (Shared Category):    0.3828
+2026-04-28 19:14:33,010 [INFO]    Avg Similarity (Different Category): 0.1615
+2026-04-28 19:14:33,010 [INFO]    Discrimination Ratio:                2.37x
+2026-04-28 19:14:33,010 [INFO]    Sample pairs analyzed: 6,142 same-category, 993,658 different-category
+2026-04-28 19:14:33,995 [INFO] ✅ Category similarity distribution plot saved to plots/category_similarity_lsa.png
+2026-04-28 19:14:33,995 [INFO] 
+2026-04-28 19:14:33,995 [INFO] 📊 Comparison Summary:
+2026-04-28 19:14:33,995 [INFO]    ⚠️  LSA decreases separation by 0.00x

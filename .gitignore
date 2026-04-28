@@ -1,4 +1,10 @@
-/db
+db
 .venv
 .idea
-/plots/article_network.html
+plots/article_network.html
+plots/vector_space_map.html
+
+.DS_Store
+__pycache__
+
+.claude/
